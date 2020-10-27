@@ -18,7 +18,7 @@ class DatabaseSeeder extends Seeder
     {
         DB::table('books')->insert([
             'title' => 'War of the Worlds',
-
+ 
             'description' => 'A science fiction masterpiece about
             Martians invading London',
 
@@ -28,7 +28,7 @@ class DatabaseSeeder extends Seeder
             'updated_at' => Carbon::now(),
         ]);
 
-        DB::table('books')->insesrt([
+        DB::table('books')->insert([
             'title' => 'A Wrinkle in Time',
 
             'description' => 'A young girl goes on a mission to save her father
