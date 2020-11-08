@@ -17,3 +17,4 @@ NIM : 185150700111021
 - Melakukan seed ke tabel authors
 - Membuat model, controller, dan route authors
 - Membuat function create, read, update, dan delete (CRUD) pada tabel books
+- Mengupdate README.md
