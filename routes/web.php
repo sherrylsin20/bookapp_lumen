@@ -17,5 +17,15 @@ $router->get('/', function () use ($router) {
     return $router->app->version();
 });
 
+//BOOKS GET
 $router->get('/books', 'BooksController@index');
 $router->get('/books/{id}', 'BooksController@show');
+
+//BOOKS POST
+$router->post('/books', 'BooksController@store');
+
+//BOOKS PUT
+$router->put('/books/{id}', 'BooksController@update');
+
+//BOOKS PUT
+$router->delete('/books/{id}', 'BooksController@destroy');
